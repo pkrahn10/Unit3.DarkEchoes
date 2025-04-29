@@ -1,0 +1,80 @@
+/* General Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+header h1 {
+  font-size: 3rem;
+  color: #ff4081;
+}
+
+/* Layout */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+/* Episode Titles */
+.title {
+  width: 300px;
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.title h2 {
+  font-size: 1.5rem;
+  color: #ff4081;
+  margin-bottom: 15px;
+}
+
+.title ul {
+  list-style: none;
+}
+
+.title li {
+  padding: 10px;
+  border-bottom: 1px solid #333;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.title li:hover {
+  background-color: #2e2e2e;
+}
+
+/* Episode Description */
+.description {
+  flex: 1;
+  max-width: 600px;
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.description h2 {
+  font-size: 1.75rem;
+  color: #ff4081;
+  margin-bottom: 10px;
+}
+
+.description p {
+  margin-bottom: 10px;
+}
